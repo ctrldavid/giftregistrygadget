@@ -1,60 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Preferences for __UP_myname__" height="400"/>
-  <UserPref name="myname" display_name="Name" default_value="Rowan"/>
-  <UserPref name="myphoto" display_name="Photo" default_value="http://doc.examples.googlepages.com/rowan-headshot.jpg"/>
-  <UserPref name="mychoice" display_name="Show Photo?" datatype="bool" default_value="true"/>
-  <UserPref name="mycolor" display_name="Color" default_value="Yellow" datatype="enum" >
-    <EnumValue value="Red" />
-     <EnumValue value="Aqua" />
-     <EnumValue value="Lime" />
-     <EnumValue value="Yellow" />
-     <EnumValue value="Pink" />
-     <EnumValue value="Orange" />
-     <EnumValue value="White" />
-   </UserPref>
+   <ModulePrefs title="" height="400"/>
    <Content type="html"><![CDATA[
-   <div id="content_div"></div>
-   <script type="text/javascript">
-   // Get userprefs
-   var prefs = new gadgets.Prefs();
+    <div id="output">
+    </div>
+    <style>
+      .gift {
+        width: 29%;
+        margin: 0px 2%;
+        float: left;
+        border: solid 1px black;
+        font-family: sans-serif;
+        padding: 0px 0px 20px 0px;
+      }
 
-   function displayGreeting () {
-     // Get current time
-     var today = new Date();
-     var time = today.getTime();
-     var html = "";
+      .gift img {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+      }
 
-     // Based on the time of day, display an appropriate greeting
-     var hour = today.getHours();
-     var salutation = "Afternoon";
-     if (hour < 12) {
-       salutation = "Morning";
-     } else if (hour > 17) {
-       salutation = "Evening";
-     }
+      .gift .name {
+        font-size: 24px;
+        text-align: center;
+      }
 
-     // Set the background color according to the mycolor userpref
-     var element = document.getElementById('content_div');
-     element.style.height=250;
-     // Set the background color according to the mycolor userpref
-     element.style.backgroundColor=prefs.getString("mycolor");
+      .gift .details {
+        margin: 0px 20px;
+      }
+      
+    </style>
+    <script type="text/javascript">
 
-     // Display a greeting based on the myname userpref
-     html += "<br><FONT SIZE=6>Good " + salutation + ", " +
-           prefs.getString("myname") + "!!!<br><br></FONT>";
+    function getGifts() {
+      var data = [{"name":"gift1","source":"where to buy it","image":"http://placekitten.com/301/200","price":"$100","blurb":"some blurb thing"},{"name":"gift2","source":"where to buy it","image":"http://placekitten.com/300/201","price":"$4500","blurb":"some blurb thing"}];
 
-     // If the "Show Photo?" checkbox is checked, display photo.
-     if (prefs.getBool("mychoice") == true) {
-       html += '<img src="' + prefs.getString("myphoto") + '">';
-     }
-     element.innerHTML = html;
-   }
-   // Pass the userprefs for this module instance to the function
-   // (allows users to include multiple module instances on their page)
-   gadgets.util.registerOnLoadHandler(displayGreeting);
+      var output = (el) => document.getElementById('output').appendChild(el);
 
-   </script>
-   ]]>
+      var createElement = (el) => () => document.createElement(el);
+      var div = createElement('div');
+      var img = createElement('img');
+
+      var elem = (el, className, content) => {
+        el.className = className;
+        if (content) {
+          el.appendChild(document.createTextNode(content));
+        }
+        return el;
+      }
+
+      for (var i = 0; i < data.length; i++) {
+        var gift = data[i];
+        var container = div();
+        container.className = "gift"
+        var image = img();
+        image.src = gift.image;
+        var name = elem(div(), "name", gift.name);
+        var price = elem(div(), "price", gift.price);
+        var source = elem(div(), "source", gift.source);
+        var blurb = elem(div(), "blurb", gift.blurb);
+        
+        var details = elem(div(), "details");
+        
+        // console.log(container, image);
+        container.appendChild(image);
+        container.appendChild(name);
+        details.appendChild(price);
+        details.appendChild(source);
+        details.appendChild(blurb);
+        container.appendChild(details);
+        output(container);
+      }     
+    }
+
+    gadgets.util.registerOnLoadHandler(getGifts);
+
+    </script>
+    ]]>
   </Content>
 </Module>

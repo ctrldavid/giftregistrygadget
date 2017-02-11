@@ -1,0 +1,17 @@
+[
+  {
+    "name": "gift1", 
+    "source": "where to buy it",
+    "image": "http://placekitten.com/201/300",
+    "price": "$100",
+    "blurb": "some blurb thing"
+  },
+  {
+    "name": "gift2", 
+    "source": "where to buy it",
+    "image": "http://placekitten.com/200/301",
+    "price": "$4500",
+    "blurb": "some blurb thing"
+  }
+
+]
