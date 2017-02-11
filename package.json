@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ctrldavid/giftregistrygadget#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "redis": "^2.6.5"
   }
 }
