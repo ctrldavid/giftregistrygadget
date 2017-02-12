@@ -1,17 +1,23 @@
 [
   {
-    "name": "gift1", 
+    "name": "gift1",
     "source": "where to buy it",
-    "image": "http://placekitten.com/201/300",
+    "image": "http://placekitten.com/301/200",
     "price": "$100",
-    "blurb": "some blurb thing"
+    "blurb": "some blurb thing redis"
   },
   {
-    "name": "gift2", 
+    "name": "gift2",
     "source": "where to buy it",
-    "image": "http://placekitten.com/200/301",
+    "image": "http://placekitten.com/300/201",
     "price": "$4500",
-    "blurb": "some blurb thing"
+    "blurb": "some blurb thing redis"
+  },
+  {
+    "name": "gift3",
+    "source": "where to buy it",
+    "image": "http://placekitten.com/300/202",
+    "price": "$400",
+    "blurb": "some blurb thing redis"
   }
-
 ]
