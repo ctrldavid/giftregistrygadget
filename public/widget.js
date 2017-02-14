@@ -45,7 +45,7 @@ GiftComponent.prototype.update = function() {
   var elapsed = new Date() - reservedAt;
   var remainingMS = 15 * 60 * 1000 - elapsed;
   var remainingM = Math.floor(remainingMS/1000/60);
-  var remainingS = remainingMS
+  var remainingS = remainingMS / 1000 - remainingM * 60;
   var remaining = `${remainingM}:${remainingS}`;
   if (elapsed < 15 * 60 * 1000) {
     this.button = elem(this.button, "reserve", `Unreserve (${remaining})`);
