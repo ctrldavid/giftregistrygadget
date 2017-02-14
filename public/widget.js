@@ -11,13 +11,14 @@ var createElement = function(el) {
 var div = createElement('div');
 var img = createElement('img');
 
+// Clears all the children from an element
 var clearChildren = function(element) {
   while (element.firstChild) {
     element.removeChild(element.firstChild);
   }
 };
 
-
+// Assigning classname and text content is a fairly common operation.
 var elem = function (el, className, content) {
   el.className = className;
   if (content) {
@@ -36,6 +37,20 @@ GiftComponent.prototype.reserve = function() {
   elem(this.button, 'reserve reserved', 'Reserved!');
   fetch(`https://remote.zk.io/gift/${this.gift.name}/reserve`);
 }
+
+// All this should ever do is update the timer on gifts in the 15 minute window?
+GiftComponent.prototype.update = function() {
+  var gift = this.gift;
+  var reservedAt = new Date(gift.reservedAt);
+  var elapsed = new Date() - reservedAt;
+  var remainingMS = 15 * 60 * 1000 - elapsed;
+  var remainingM = Math.floor(remainingMS/1000/60);
+  var remainingS = remainingMS
+  var remaining = `${remainingM}:${remainingS}`;
+  if (elapsed < 15 * 60 * 1000) {
+    this.button = elem(this.button, "reserve", `Unreserve (${remaining})`);
+  }
+};
 
 GiftComponent.prototype.render = function() {
   var gift = this.gift;
