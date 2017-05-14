@@ -10,7 +10,6 @@ const client = redis.createClient();
 const app = express();
 
 const log = (req, message) => {
-  console.log(Object.keys(req));
   const dump = {
     message: message,
     timestamp: (new Date()).toUTCString(),
@@ -18,8 +17,12 @@ const log = (req, message) => {
   const str = JSON.stringify(dump);
   client.rpush('gift-log', str);
   fs.appendFile('log.txt', `${str}\n`, (err) => {
-    console.log('Error writing to append only log');
+    if (err) {
+      console.log('Error writing to append only log');
+      console.log(err);
+    }
   });
+  console.log(str);
 }
 
 app.use('/static', express.static('public'));
@@ -33,7 +36,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/reset', (req, res) => {
-  console.log('storing raw data');
+  //console.log('storing raw data');
   log(req, 'Reset all gifts.');
   (new Promise((resolve) => client.del('gifts', resolve))).then(() => {
     data.forEach((item) => {
@@ -45,20 +48,20 @@ app.get('/reset', (req, res) => {
 });
 
 app.get('/gift/:id', (req, res) => {
-  console.log(`getting gift ${req.params.id}`);
+  //console.log(`getting gift ${req.params.id}`);
   client.get(`gift/${req.params.id}`, (err, value) => {
     res.end(value);
-    console.log(`got gift ${value}`);
+    //console.log(`got gift ${value}`);
   });
 });
 
 app.get('/gift/:id/reserve', (req, res) => {
-  console.log(`attempting to reserve gift ${req.params.id}`);
+  //console.log(`attempting to reserve gift ${req.params.id}`);
   client.get(`gift/${req.params.id}`, (err, value) => {
-    console.log(`got gift ${value}`);
+    //console.log(`got gift ${value}`);
     var gift = JSON.parse(value);
     if (gift.reserved) {
-      console.log('Gift already reserved');
+      //console.log('Gift already reserved');
       log(req, `Reserve failed already reserved: ${req.params.id}`);
       res.end(JSON.stringify({error: "This gift was already reserved!"}));
       return;
@@ -74,12 +77,12 @@ app.get('/gift/:id/reserve', (req, res) => {
 });
 
 app.get('/gift/:id/unreserve', (req, res) => {
-  console.log(`attempting to unreserve gift ${req.params.id}`);
+  //console.log(`attempting to unreserve gift ${req.params.id}`);
   client.get(`gift/${req.params.id}`, (err, value) => {
-    console.log(`got gift ${value}`);
+    //console.log(`got gift ${value}`);
     var gift = JSON.parse(value);
     if (!gift.reserved || !gift.reservedAt) {
-      console.log('Gift not reserved');
+      //console.log('Gift not reserved');
       log(req, `Unreserve failed not reserved ${req.params.id}`);
       res.end(JSON.stringify({error: "This gift wasn't reserved!"}));
       return;
@@ -88,7 +91,7 @@ app.get('/gift/:id/unreserve', (req, res) => {
     var reservedAt = new Date(gift.reservedAt);
     var elapsed = new Date() - reservedAt;
     if (elapsed > 15 * 60 * 1000) {
-      console.log('Gift has been reserved for too long');
+      //console.log('Gift has been reserved for too long');
       log(req, `Unreserve failed reserved too long ${req.params.id}`);
       res.end(JSON.stringify({error: "Gift has been reserved for too long to undo!"}));
       return;
@@ -105,9 +108,9 @@ app.get('/gift/:id/unreserve', (req, res) => {
 
 app.get('/gifts', (req, res) => {
   client.lrange('gifts', 0, -1, (err, values) => {
-    console.log(values);
+    //console.log(values);
     client.mget(values, (err, full) => {
-      console.log(full);
+      //console.log(full);
       full = full.map((str) => JSON.parse(str));
       res.end(JSON.stringify(full));
     });
