@@ -2,6 +2,10 @@
 Gifts can be 'unreserved' or 'reserved'
 Reservation can be undone within some time limit (15 mins?) by same IP.
 */
+
+//var domain = "https://remote.zk.io";
+var domain = "https://gift.zk.io";
+
 var output = function(el) {return document.getElementById('output').appendChild(el);}
 
 var createElement = function(el) {
@@ -36,7 +40,7 @@ var GiftComponent = function (gift) {
 GiftComponent.prototype.reserve = function() {
   clearChildren(this.button);
   elem(this.button, 'reserve reserved', 'Reserved!');
-  fetch(`https://remote.zk.io/gift/${this.gift.name}/reserve`);
+  fetch(`${domain}/gift/${this.gift.name}/reserve`);
 }
 
 // All this should ever do is update the timer on gifts in the 15 minute window?
@@ -97,7 +101,7 @@ GiftComponent.prototype.render = function() {
 }
 
 function getGifts() {
-  fetch("https://remote.zk.io/gifts").then(function(res) { return res.json()}).then(renderGifts);
+  fetch(`${domain}/gifts`).then(function(res) { return res.json()}).then(renderGifts);
 }
 
 function renderGifts(data) {
