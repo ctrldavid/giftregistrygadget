@@ -39,7 +39,7 @@ var GiftComponent = function (gift) {
 
 GiftComponent.prototype.reserve = function() {
   clearChildren(this.button);
-  elem(this.button, 'reserve reserved', 'Reserved!');
+  elem(this.button, 'reserve reserved', 'Gift Purchased');
   fetch(`${domain}/gift/${this.gift.name}/reserve`);
 }
 
@@ -76,14 +76,14 @@ GiftComponent.prototype.render = function() {
     var reservedAt = new Date(gift.reservedAt);
     var elapsed = new Date() - reservedAt;
     if (elapsed < 15 * 60 * 1000) {
-      button = elem(div(), "reserve", "can still unrserve");
+      button = elem(div(), "reserve", "Gift Purchased");
       button.addEventListener('click', this.reserve);
     } else {
-      button = elem(div(), 'reserve reserved', "Reserved!");
+      button = elem(div(), 'reserve reserved', "Gift Purchased");
       button.addEventListener('click', this.reserve);
     }
   } else {
-    button = elem(div(), "reserve", "Reserve!");
+    button = elem(div(), "reserve", "I will purchase this gift");
     button.addEventListener('click', this.reserve);
   }
 
