@@ -75,7 +75,7 @@ GiftComponent.prototype.render = function() {
   if (gift.reserved) {
     var reservedAt = new Date(gift.reservedAt);
     var elapsed = new Date() - reservedAt;
-    if (elapsed < 15 * 60 * 1000) {
+    if (false) { //(elapsed < 15 * 60 * 1000) {
       button = elem(div(), "reserve", "Gift Purchased");
       button.addEventListener('click', this.reserve);
     } else {
