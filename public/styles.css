@@ -1,19 +1,24 @@
+#output {
+  display: flex;
+  flex-flow: row wrap;
+}
 .gift {
   overflow: hidden;
-  width: 29%;
-  margin: 0px 2%;
-  float: left;
-  border: solid 1px black;
+  margin: 20px 2%;
+  border: solid 1px #888;
   border-radius: 6px;
-  box-shadow: 0px 4px 12px #888;
+  box-shadow: 0px 4px 12px #aaa;
   font-family: sans-serif;
   padding: 0px 0px 0px 0px;
+
+  flex: 0 0 20%;
+  box-sizing: border-box;
 }
 
 .gift img {
   display: block;
   margin: 0px auto;
-  width: 100%;
+  max-height: 200px;
   user-select:none;
 }
 

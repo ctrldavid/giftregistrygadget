@@ -9,6 +9,7 @@ var createElement = function(el) {
 };
 
 var div = createElement('div');
+var a = createElement('a');
 var img = createElement('img');
 
 // Clears all the children from an element
@@ -60,7 +61,8 @@ GiftComponent.prototype.render = function() {
   image.src = gift.image;
   var name = elem(div(), "name", gift.name);
   var price = elem(div(), "price", gift.price);
-  var source = elem(div(), "source", gift.source);
+  var source = elem(a(), "source", gift.source);
+  source.href = gift.source;
   var blurb = elem(div(), "blurb", gift.blurb);
 
   var details = elem(div(), "details");
