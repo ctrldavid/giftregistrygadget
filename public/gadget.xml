@@ -4,8 +4,8 @@
    <Content type="html"><![CDATA[
     <div id="output">
     </div>
-    <link href="https://remote.zk.io/static/styles.css" rel="stylesheet">
-    <script type="text/javascript" src="https://remote.zk.io/static/widget.js">
+    <link href="https://gift.zk.io/static/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="https://gift.zk.io/static/widget.js">
     </script>
     ]]>
   </Content>

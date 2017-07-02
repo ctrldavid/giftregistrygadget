@@ -8,8 +8,8 @@ Reservation can be undone within some time limit (15 mins?) by same IP.
 
 // Widget location: https://remote.zk.io/static/gadget.xml
 
-var domain = "https://remote.zk.io";
-// var domain = "https://gift.zk.io";
+// var domain = "https://remote.zk.io";
+var domain = "https://gift.zk.io";
 
 var output = function(el) {return document.getElementById('output').appendChild(el);}
 
