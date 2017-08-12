@@ -32,6 +32,9 @@
 .gift .details {
   margin: 0px 20px;
 }
+.gift .details .blurb {
+  white-space: pre-wrap;
+}
 .gift .reserve {
   cursor: pointer;
   box-sizing: border-box;
