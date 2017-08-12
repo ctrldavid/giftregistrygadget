@@ -72,6 +72,7 @@ GiftComponent.prototype.render = function() {
   var price = elem(div(), "price", gift.price);
   var source = elem(a(), "source", gift.source);
   source.href = gift.source;
+  source.target = '_blank';
   var blurb = elem(div(), "blurb", gift.blurb);
 
   var details = elem(div(), "details");

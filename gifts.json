@@ -1,8 +1,8 @@
 [
   {
     "name": "Luce Max Light",
-    "source": "https://lighthouselighting.co.nz/product/luce-max/",
-    "image": "https://lighthouselighting.co.nz/wp-content/uploads/2016/04/Luce-Max-Small-600x600.jpg",
+    "source": "http://www.lighthouselighting.co.nz/our-products/luce-max-big-pendant/",
+    "image": "http://www.lighthouselighting.co.nz/assets/Products/ID-033662/Images/_resampled/CroppedFocusedImageWzg3MCw3NTUsInkiLDU3XQ/1-luceM.jpg",
     "price": "$246.90 - $398.20",
     "blurb": "Lighthouse North Shore\n3/18 Link Drive\nWairau Valley\nNorth Shore"
   },
@@ -16,8 +16,8 @@
   {
     "name": "Panasonic Breadmaker SD-2501WST",
     "source": "http://www.farmers.co.nz/electrical/kitchen-appliances/cooking/panasonic-breadmaker-sd-2501wst-5727544",
-    "image": "https://remote.zk.io/static/test.png",
-    "price": "$389.99",
+    "image": "http://www.panasonic.com/content/dam/pim/nz/en/SD/SD-250/SD-2501WST/SD-2501WST_Spec_20170728.png",
+    "price": "$272.99",
     "blurb": ""
   },
   {
@@ -38,21 +38,21 @@
     "name": "Series Dinner Plate 27.5cm in Matte White x6",
     "source": "https://www.freedomfurniture.co.nz/Product/S23519695/Series-Dinner-Plate-27.5cm",
     "image": "https://www.freedomfurniture.co.nz/productimages/medium/1/34228_56021_2998.jpg",
-    "price": "$77.70",
+    "price": "$89.70",
     "blurb": ""
   },
   {
     "name": "Series Side Plate in Matte Grey x6",
     "source": "https://www.freedomfurniture.co.nz/Product/S23519718/Series-Side-Plate",
     "image": "https://www.freedomfurniture.co.nz/productimages/medium/1/34229_48936_6447.jpg",
-    "price": "$59.70",
+    "price": "$71.70",
     "blurb": ""
   },
   {
     "name": "Series Bowl 15cm in Matte Black X6",
     "source": "https://www.freedomfurniture.co.nz/Product/S23519732/Series-Bowl-15cm",
     "image": "https://www.freedomfurniture.co.nz/productimages/medium/1/34230_46631_3007.jpg",
-    "price": "$59.70",
+    "price": "$71.70",
     "blurb": ""
   },
   {
@@ -79,7 +79,7 @@
   {
     "name": "Cake Stand",
     "source": "https://undeuxtrois.nz/products/jc0344",
-    "image": "https://cdn.shopify.com/s/files/1/0670/9873/products/4e513f8155a3fa2901476e763ee416f92ff02684_1024x1024.jpg?v=1494556681",
+    "image": "https://cdn.shopify.com/s/files/1/0670/9873/products/JC0344_1024x1024.jpg?v=1494984786",
     "price": "$55.00",
     "blurb": ""
   },
@@ -87,7 +87,7 @@
     "name": "Maddison Occasional Chair Butterfly",
     "source": "https://thedesignstore.co.nz/collections/occasional-chairs/products/xx-maddison-occasional-chair-butterfly",
     "image": "https://cdn.shopify.com/s/files/1/1829/9157/products/madison_butterfly_1024x1024.jpg?v=1494548732",
-    "price": "$849.00",
+    "price": "$599",
     "blurb": ""
   },
   {
@@ -100,7 +100,7 @@
   {
     "name": "Kina Bowl Green",
     "source": "https://thedesignstore.co.nz/collections/decoration/products/kina-bowl-set-green",
-    "image": "https://cdn.shopify.com/s/files/1/1829/9157/products/kina_picture_1024x1024.jpg?v=1494549328",
+    "image": "https://cdn.shopify.com/s/files/1/1829/9157/products/49860_grande.jpg?v=1502337726",
     "price": "$42.50",
     "blurb": ""
   },
@@ -116,6 +116,48 @@
     "source": "https://thedesignstore.co.nz/collections/kitchen-accessories/products/wooden-paper-towel-holder",
     "image": "https://cdn.shopify.com/s/files/1/1829/9157/products/210007_1024x1024.jpg?v=1494558893",
     "price": "$49.99",
+    "blurb": ""
+  },
+  {
+    "name": "6x Cat coffee cups",
+    "source": "http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-purple-290ml-1070687",
+    "image": "http://www.briscoes.co.nz/productimages/THUMB/1/82503_276493_171598.jpg",
+    "price": "~$60.00",
+    "blurb": "Other Colours: http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-coral-290ml-1070689, http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-cream-290ml-1070690, http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-blue-290ml-1070691, http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-yellow-290ml-1070686, http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-teal-290ml-1070688"
+  },
+  {
+    "name": "Baccarat Pete Evans 5-Piece Magnetic Knife Block",
+    "source": "https://thedesignstore.co.nz/collections/kitchen-accessories/products/wooden-paper-towel-holder",
+    "image": "http://www.farmers.co.nz/INTERSHOP/static/WFS/Farmers-Shop-Site/-/Farmers-Shop/en_NZ/product/61/90/452/1/6190452_00_W220_H287.jpg?lastmodified=201701162220046",
+    "price": "$249.99",
+    "blurb": ""
+  },
+  {
+    "name": "Baccarat ID3HA Roaster & Grill, 34cm x 24cm",
+    "source": "http://www.farmers.co.nz/brands/baccarat/baccarat-id3ha-roaster-grill-34cm-x-24cm-5794763",
+    "image": "http://www.farmers.co.nz/INTERSHOP/static/WFS/Farmers-Shop-Site/-/Farmers-Shop/en_NZ/product/57/94/763/3/resized_220x287.jpg?lastmodified=201409261617017",
+    "price": "$99.99",
+    "blurb": ""
+  },
+  {
+    "name": "Kitchen Aid Stand Mixer - Cast Iron Black",
+    "source": "https://kitchenaid.co.nz/products/ksm170-stand-mixer-0",
+    "image": "https://kitchenaid.co.nz/sites/default/files/styles/product_details/public/5KSM170ABK.jpg?itok=JMlhl3wo",
+    "price": "$1149.00",
+    "blurb": ""
+  },
+  {
+    "name": "Royal Doulton Champagne Set",
+    "source": "https://www.thehomestoreauckland.co.nz/product/royal-doulton-champagne-set",
+    "image": "https://www.thehomestoreauckland.co.nz/images/_db/MgA5ADYANAA0AA==/500x500/q80/2350104_New%20Decanter%20Sets%20Champagne%20Set_652383742710-co.jpg",
+    "price": "$569",
+    "blurb": ""
+  },
+  {
+    "name": "Le Creuset Oval Casserole Black",
+    "source": "https://www.thestudio.co.nz/shop/Cookware/Cookware+by+material/Cast+Iron/Le+Creuset+Oval+Casserole+Black.html",
+    "image": "https://www.thestudio.co.nz/ic/1966866805/Le_Creuset_Oval_Casserole_Black.jpg",
+    "price": "$620 - $734",
     "blurb": ""
   }
 ]
