@@ -67,7 +67,7 @@
     "source": "https://www.artedomus.co.nz/decor?lightbox=dataItem-ikne8wzx1",
     "image": "https://static.wixstatic.com/media/3858ce_8868e07408be4c5ea19efd9c8315ee03.jpg/v1/fill/w_399,h_299,al_c,q_90,usm_1.20_1.00_0.01/3858ce_8868e07408be4c5ea19efd9c8315ee03.webp",
     "price": "$36.45",
-    "blurb": "Artedomus NZ\n\n1118 Great North Road\nPt Chevalier\nAuckland 1022"
+    "blurb": "Artedomus NZ\n1118 Great North Road\nPt Chevalier\nAuckland 1022"
   },
   {
     "name": "White Pitcher",
@@ -119,13 +119,6 @@
     "blurb": ""
   },
   {
-    "name": "6x Cat coffee cups",
-    "source": "http://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-purple-290ml-1070687",
-    "image": "http://www.briscoes.co.nz/productimages/THUMB/1/82503_276493_171598.jpg",
-    "price": "~$30.00 for a set of all 6 colours.",
-    "blurb": "There are 6 different colours: purple, coral, cream, blue, yellow and teal. We would love the whole set!:\nhttp://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-purple-290ml-1070687,\nhttp://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-coral-290ml-1070689,\nhttp://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-cream-290ml-1070690,\nhttp://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-blue-290ml-1070691,\nhttp://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-yellow-290ml-1070686,\nhttp://www.briscoes.co.nz/dining-and-entertaining/mugs/patterned/maxwell-and-williams-purrfect-mug-teal-290ml-1070688"
-  },
-  {
     "name": "Baccarat Pete Evans 5-Piece Magnetic Knife Block",
     "source": "http://www.farmers.co.nz/brands/baccarat/baccarat-pete-evans-5-piece-magnetic-knife-block-6190452",
     "image": "http://www.farmers.co.nz/INTERSHOP/static/WFS/Farmers-Shop-Site/-/Farmers-Shop/en_NZ/product/61/90/452/1/6190452_00_W220_H287.jpg?lastmodified=201701162220046",
@@ -159,5 +152,124 @@
     "image": "https://www.thestudio.co.nz/ic/1966866805/Le_Creuset_Oval_Casserole_Black.jpg",
     "price": "$620 - $734",
     "blurb": ""
-  }
+  },
+ {
+   "name": "Lalia Salad Bowl",
+   "image": "https://www.countryroad.co.nz/ProductImages_Display/MEDIUM/1/67076_329508_186739.jpg",
+   "price": "$79.90",
+   "blurb": "",
+   "source": "https://www.countryroad.co.nz/shop/home/kitchen-and-dining/60211257/Lalia-Salad-Bowl.html"
+ },
+ {
+   "name": "Lalia Salad Servers",
+   "image": "https://www.countryroad.co.nz/ProductImages_Display/MEDIUM/2/66289_325832_184011.jpg",
+   "price": "$44.90",
+   "blurb": "",
+   "source": "https://www.countryroad.co.nz/shop/home/kitchen-and-dining/60211268/Lalia-Salad-Servers.html"
+ },
+ {
+   "name": "Maxwell & Williams Tint Snug Mug 450ml x 6",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/MW/Tint/cloud%20snug%20mug.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "$11.99 each - we would love one of each colour!",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/search.aspx?keyword=tint%20snug%20mug"
+ },
+ {
+   "name": "Horwood marble rolling pin & stand",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/Catalogue/HORH350.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "$59.90",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Horwood-Marble-Rolling-Pin-And-Stand/6550.aspx"
+ },
+ {
+   "name": "Judge Slate Turntable",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/Catalogue/Judge/HORJSL25%20Judge%20Slate%2035cm%20Lazy%20Susan.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "RRP: $79.90\nOn Sale at the moment: $29.00",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Judge-Slate-Turntable-Platter/14318.aspx"
+ },
+ {
+   "name": "Hoorwood Marble Mortar & Pestle 17cm",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/Catalogue/HORH355.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "RRP: $59.90\nOn sale at the moment: $39.90",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Horwood-Marble-Mortar-And-Pestles/6554.aspx"
+ },
+ {
+   "name": "Horwood Polished White Marble Oblong Board 30 x 20cm",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/Catalogue/HORH360.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "RRP: $49.90\nOn sale at the moment: $29.90",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Horwood-Polished-White-Marble-Oblong-Board-30X20cm/8250.aspx"
+ },
+ {
+   "name": "Maxwell & Williams Purrfect Set of Coffee Cups x6\nWe would love one of each colour!",
+   "image": "http://www.maxwellandwilliams.co.nz/images/items/dx0013.jpg",
+   "price": "$9.99 each\n$59.94 for the set.",
+   "blurb": "",
+   "source": "http://www.maxwellandwilliams.co.nz/search.asp?brand=mw&kw=Purrfect%20Mug"
+ },
+ {
+   "name": "Maxwell & Williams Purrfect set of plates x6\nWe would love one of each colour!",
+   "image": "http://www.maxwellandwilliams.co.nz/images/items/dx0019.jpg",
+   "price": "$9.99 each\n$59.94 for the set.",
+   "blurb": "",
+   "source": "http://www.maxwellandwilliams.co.nz/search.asp?brand=mw&kw=Purrfect%20Plate"
+ },
+ {
+   "name": "Maxwell & Williams Artisan Jug 750ml Biscuit Colour",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/MW/Artisan/artisan%20jug%20750ml%20biscuit.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "$19.99",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Maxwell-And-Williams-Artisan-Jug-750Ml-Biscuit/14653.aspx"
+ },
+ {
+   "name": "Artisan Spoon Rest Biscuit Colour",
+   "image": "http://www.maxwellandwilliams.co.nz/images/items/aw0130.jpg",
+   "price": "$14.99",
+   "blurb": "",
+   "source": "http://www.maxwellandwilliams.co.nz/mw/maxwell-williams-kitchenware-accessories-artisan-spoon-rest-biscuit-aw0130.asp"
+ },
+ {
+   "name": "Artisan Utensil Holder Biscuit Colour",
+   "image": "http://www.maxwellandwilliams.co.nz/images/items/aw0127.jpg",
+   "price": "$24.99",
+   "blurb": "",
+   "source": "http://www.maxwellandwilliams.co.nz/mw/maxwell-williams-kitchenware-accessories-artisan-utensil-holder-aw0127.asp"
+ },
+ {
+   "name": "Mason Cash Bake My Day Mixing Bowl",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/Domestics/DOM971361881.jpg?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "$89.00",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Mason-Cash-Bake-My-Day-Mixing-Bowl-29Cm/14316.aspx"
+ },
+ {
+   "name": "Maxwell & Williams Tint Teapot - Grey",
+   "image": "http://www.thehomestoreonline.co.nz/Data/Default/Images/MW/Tint/AV0015.JPG?thumbnail=jpg&maxwdth=1000&maxhght=1000&trim.threshold=30&trim.percentpadding=0&margin=25&stretch=proportionally&watermark=main",
+   "price": "RRP: $29.99\nOn sale at the moment for $14.99",
+   "blurb": "",
+   "source": "http://www.thehomestoreonline.co.nz/itemdetails/Maxwell-Williams-Tint---Grey-Teapot/14289.aspx"
+ },
+ {
+   "name": "Chunky Knit Grey Marle Rib Throw",
+   "image": "http://www.adairs.co.nz/globalassets/imported-assets/homewares/throws--bed-runners/home-republic/42443_greymarle_detail_01.jpg",
+   "price": "$309.99",
+   "blurb": "",
+   "source": "https://www.adairs.co.nz/homewares/throws/home-republic/chunky-knit-ribthrow-120x150cm-grey-marle/"
+ },
+ {
+   "name": "Chunky Knit Grey Marle Cushion",
+   "image": "http://www.adairs.co.nz/globalassets/imported-assets/homewares/cushions/home-republic/41532_greymarle_detail_01.jpg",
+   "price": "$79.95",
+   "blurb": "",
+   "source": "https://www.adairs.co.nz/homewares/cushions/home-republic/chunky-knit-cushion-45x45cm-grey-marle/"
+ },
+ {
+   "name": "Chunky Knit Dusty Pink Cushion",
+   "image": "http://www.adairs.co.nz/globalassets/imported-assets/homewares/cushions/home-republic/41532_dustypink_detail_01.jpg",
+   "price": "$79.95",
+   "blurb": "",
+   "source": "https://www.adairs.co.nz/homewares/cushions/home-republic/chunky-knit-cushion-45x45cm-dusty-pink/"
+ }
 ]
